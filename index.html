@@ -15,19 +15,50 @@
                     <li><a href="../sobrenos.html">SOBRE NÓS</a></li>
                     <li><a href="../e_commerce.html">E-COMMERCE</a></li>
                     <div class="lista_conta">
-                        <li><a href="#register"></a></li>
-                        <li><a href="#login"></a></li>
+                        <li><a href="#register">REGISTRAR</a></li>
+                        <li><a href="#login">ENTRAR</a></li>
                     </div>
                 </ul>
             </nav>
     </header>
     <main>
         <div class="containers">
-            <h2>selecione a moeada desejada e o valor:</h2>
+            <h2>especifique a moeda e insira o valor:</h2>
             <div>
-                <input type="number" placeholder="Insira o valor para converter">
+                <form>
+                <select>
+                    <option selected>real</option>
+                    <option>dólar</option>
+                    <option>euro</option>
+                    <option>bitcoin</option>
+                </select>
+                <input id="input_user" type="number" placeholder="Insira o valor a ser convertido">    
+            </form>
+            </div>
+            <h2>selecione a moeda de destino:</h2>
+            <div>
+                <form>
+                <select>
+                    <option selected>dólar</option>
+                    <option>euro</option>
+                    <option>bitcoin</option>
+                    <option>real</option>
+                </select>
+                <button type="button">⇄ converter</button>
+                </form>
             </div>
         </div>
     </main>
+    <section id="#sobrenos">
+        <hr/>
+        <h3>QUEM SOMOS?</h3>
+        <p> 
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis deleniti nihil aliquam excepturi
+            totam quia odio illo id. Eos modi quibusdam laborum placeat eligendi expedita tempore esse aspernatur doloribus officia?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus explicabo corporis ipsum error
+            laborum aliquam molestias perspiciatis iure velit ipsa deleniti numquam, quisquam fugiat debitis officiis tenetur beatae dolorem sapiente.
+        </p>
+        <hr/>
+    </section>
 </body>
 </html>
