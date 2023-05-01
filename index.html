@@ -9,44 +9,46 @@
 </head>
 <body>
     <header>
-        <h1>GURIS' CONVERSOR</h1>
-            <nav>
-                <ul class="lista_nav">
+        <div class="containers">
+            <h1>GURIS' CONVERSOR</h1>
+            <div class="lista_nav">
+                <ul>
                     <li><a href="../sobrenos.html">SOBRE NÓS</a></li>
                     <li><a href="../e_commerce.html">E-COMMERCE</a></li>
-                    <div class="lista_conta">
-                        <li><a href="#register">REGISTRAR</a></li>
-                        <li><a href="#login">ENTRAR</a></li>
-                    </div>
                 </ul>
-            </nav>
+            </div>
+            <div class="lista_user">
+                <ul>
+                    <li><a href="#register">REGISTRAR</a></li>
+                    <li><a href="#login">ENTRAR</a></li>
+                </ul>
+            </div>
+        </div>
     </header>
     <main>
         <div class="containers">
-            <h2>especifique a moeda e insira o valor:</h2>
-            <div>
-                <form>
-                <select>
-                    <option selected>real</option>
-                    <option>dólar</option>
-                    <option>euro</option>
-                    <option>bitcoin</option>
-                </select>
-                <input id="input_user" type="number" placeholder="Insira o valor a ser convertido">    
+            <form>
+                <div class="moeda_origem">
+                    <h2>especifique a moeda e insira o valor:</h2>
+                    <select>
+                        <option selected>real</option>
+                        <option>dólar</option>
+                        <option>euro</option>
+                        <option>bitcoin</option>
+                    </select>
+                    <input id="input_user" type="number" placeholder="Insira o valor a ser convertido">    
+                </div>
+                <h2>selecione a moeda de destino:</h2>
+                <div class="moeda_destino">
+                    <select>
+                        <option selected>dólar</option>
+                        <option>euro</option>
+                        <option>bitcoin</option>
+                        <option>real</option>
+                    </select>
+                    <button type="button">⇄ converter</button>
+                </div>
             </form>
-            </div>
-            <h2>selecione a moeda de destino:</h2>
-            <div>
-                <form>
-                <select>
-                    <option selected>dólar</option>
-                    <option>euro</option>
-                    <option>bitcoin</option>
-                    <option>real</option>
-                </select>
-                <button type="button">⇄ converter</button>
-                </form>
-            </div>
         </div>
     </main>
     <section id="#sobrenos">

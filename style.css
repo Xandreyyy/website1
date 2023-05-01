@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(102, 101, 101);
+}
+
+h1{
+    margin: 8px 0 16px 8px;
+}
+
+header .containers{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista_nav, .lista_user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista_nav ul li, .lista_user ul li{
+    display: inline;
+}
+
+.lista_nav ul li a, .lista_user ul li a{
+    text-decoration: none;
+}
+
+.lista_user ul li{
+    padding-right: 12px;
+}
+
+main{
+    justify-content: center;
+}
+
+main .containers{
+    display: flex;
+    justify-content: center;
+    margin: 100px 77px 100px 75px;
+    padding: 70px 0 70px 0;
+    border: solid black;
+}
+
+.moeda_origem{
+    margin-bottom: 20px;
+}
