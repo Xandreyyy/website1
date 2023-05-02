@@ -2,11 +2,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    max-width: 1360px;
 }
 
 .containers{
     display: flex;
+    max-width: 1360px;
+    width: 100%;
 }
 
 header{
@@ -55,7 +56,7 @@ main{
 main .containers{
     display: flex;
     justify-content: center;
-    margin: 100px 77px 220px 75px;
+    margin: 100px 77px 340px 75px;
     padding: 70px 0 70px 0;
     border: solid black;
 }
@@ -98,4 +99,3 @@ section{
 .hr2{
     margin-top: 20px;
 }
-

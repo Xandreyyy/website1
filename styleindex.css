@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.containers{
+    display: flex;
+    max-width: 1360px;
+    width: 100%;
+}
+
+header{
+    background-color: goldenrod;
+}
+
+h1{
+    margin: 8px 0 16px 8px;
+}
+
+header .containers{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista_nav, .lista_user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista_nav ul li, .lista_user ul li{
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+}
+
+.lista_nav li a, .lista_user li a{
+    padding: 10px;
+}
+
+.lista_nav{
+    margin-right: 50px;
+}
+
+.lista_user{
+    margin-right: 20px;
+}
+
+main{
+    justify-content: center;
+}
+
+main .containers{
+    display: flex;
+    justify-content: center;
+    margin: 100px 77px 340px 75px;
+    padding: 70px 0 70px 0;
+    border: solid black;
+}
+
+.moeda_origem{
+    margin-bottom: 20px;
+}
+
+.moeda_origem h2{
+    margin-bottom: 10px;
+}
+
+.moeda_destino h2{
+    margin-bottom: 10px;
+}
+
+input{
+    margin-left: 10px;
+    height: 30px;
+    width: 195px;
+    border-radius: 5px
+}
+
+#botao_conversao{
+    margin-left: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #058d2e;
+    color: #ffff;
+}
+
+#botao_conversao:hover{
+    background-color: #06b63b;
+}
+
+section .containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+section h2{
+    align-content: center;
+    align-items: center;
+}
+
+section{
+    margin-bottom: 200px;
+}
+
+.hr1{
+    margin-bottom: 20px;
+}
+
+.hr2{
+    margin-top: 20px;
+}
+
