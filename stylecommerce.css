@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 
-.containers{
+.container{
     display: flex;
 }
 
-header .containers{
-    justify-content: center ;
+header .container{
+    justify-content: center;
+    align-items: center;
 }
